@@ -96,7 +96,8 @@ public class SinglyLinkedList<E> {
     return answer;
   }
 
-    public void reverse(){       
+    public void reverse(){    
+        if (isEmpty()) return;   
         Node<E> current = head;
         Node<E> prev = null;
         tail = head;
@@ -108,6 +109,5 @@ public class SinglyLinkedList<E> {
             current = next;
         }    
         head = prev;
-        System.out.println("Hello");
     }
 }
