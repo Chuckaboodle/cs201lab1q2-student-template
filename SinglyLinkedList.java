@@ -97,8 +97,8 @@ public class SinglyLinkedList<E> {
   }
 
     public void reverse(){       
-        Node current = head;
-        Node prev = null;
+        Node<E> current = head;
+        Node<E> prev = null;
         tail = head;
 
         while (current != null) {
