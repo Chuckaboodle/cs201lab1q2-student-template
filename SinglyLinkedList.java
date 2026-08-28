@@ -108,5 +108,6 @@ public class SinglyLinkedList<E> {
             current = next;
         }    
         head = prev;
+        System.out.println("Hello");
     }
 }
